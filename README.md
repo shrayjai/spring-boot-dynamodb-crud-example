@@ -1,10 +1,10 @@
 # Spring Boot DynamoDB CRUD [Example]
 
-Example code for Spring Boot DynamoDB CRUD.
+Spring Boot DynamoDB CRUD
 
-## Run locally
+## Setup
 
-DynamoDB properties are under `/resources/application.properties`.  
+DynamoDB properties `/resources/application.properties`
 
 ```
 aws.region=ap-south-1
@@ -13,7 +13,7 @@ aws.dynamoDB.accessKey=********
 aws.dynamoDB.secretKey=********
 ```
 
-Run the project in an IDE or by this command on the command line:
+Run locally
 
 ```
 mvn spring-boot:run
